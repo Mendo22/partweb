@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+h1 {
+  border-left: 5px solid white;
+  padding-left: 15px;
+}
+
+.card-img-top {
+  height: 500px;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.row {
+  margin: 50px;
+}
